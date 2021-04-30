@@ -1,0 +1,179 @@
+Ejercicio Individual 
+
+Elaborar un algoritmo para:
+•	Realizar una compra en una tienda virtual 
+Determinar además los elementos de entrada y salida 
+
+Comprar en una tienda virtual
+Entrada: necesidad de adquirir un producto de vestuario, internet, medio tecnológico (celular), medio de pago (tarjeta de débito y claves), aplicación de tienda Falabella, cuenta de usuario.
+Procesos: 
+I.	Tomar el celular 
+II.	Ir a google play 
+III.	Descargar aplicación de Falabella
+IV.	Abrir aplicación 
+V.	Iniciar sesión 
+VI.	Buscar el producto que necesito o busco 
+VII.	Seleccionar color 
+VIII.	Seleccionar talla 
+IX.	Seleccionar agregar al carro 
+X.	Ir al carro y apretar botón de pago 
+XI.	Rectificar los productos 
+XII.	Seleccionar medio de retiro o despacho, en este caso despacho a domicilio.
+XIII.	Rectificar fecha 
+XIV.	Confirmar e ir al pago 
+XV.	Seleccionar medio de pago, tarjeta de débito
+XVI.	Ingresar Rut 
+XVII.	Ingresar Clave de internet del banco 
+XVIII.	Seleccionar cuenta de donde se van a descargar los fondos y confirmar 
+XIX.	Ingresar clave de coordenadas y confirmar 
+XX.	Se recibe correo de confirmación y boleta electrónica
+XXI.	Revisar proceso de despacho para ir confirmando la llegada del producto 
+XXII.	Recibe llamada telefónica de despacho para confirmar que llego su producto y se procede a ir a buscar el producto a la puerta de su hogar.
+XXIII.	Recibe el paquete, entregar a repartidor rut y nombre de la persona que recibe
+XXIV.	Toman foto con el producto en sus manos.
+XXV.	Toma el producto, lo desinfecta y procede a su apertura
+XXVI.	Llega producto deseado 
+Salida: Producto de vestuario en sus manos 
+ Ejercicio Grupal
+ Buscar tipos de datos primitivos en Java, explicar que es, como se usa y ejemplos de los mismos.
+
+¿Qué es un dato primitivo?
+
+	El lenguaje de programación Java tiene un tipo estático, lo que significa que todas las variables deben declararse primero antes de que puedan usarse. Esto implica indicar el tipo y el nombre de la variable, como ya ha visto:
+
+int engranaje = 1;
+
+	Si lo hace, le indicará a su programa que existe un campo llamado "engranaje", que contiene datos numéricos y que tiene un valor inicial de "1".
+
+	El tipo de datos de una variable determina los valores que puede contener, además de las operaciones que se pueden realizar en ella. Además de int, el lenguaje de programación Java admite otros siete tipos de datos primitivos. Un tipo primitivo está predefinido por el idioma y se nombra mediante una palabra clave reservada. Los valores primitivos no comparten estado con otros valores primitivos
+. Los ocho tipos de datos primitivos admitidos por el lenguaje de programación Java son:
+
+Byte
+
+Representa un tipo de dato de 8 bits con signo. De tal manera que puede almacenar los valores numéricos de -128 a 127 (ambos inclusive).
+Short
+Representa un tipo de dato de 16 bits con signo. De esta manera almacena valores numéricos de -32.768 a 32.767.
+Int
+Es un tipo de dato de 32 bits con signo para almacenar valores numéricos. Cuyo valor mínimo es -231 y el valor máximo 231-1.
+Long
+Es un tipo de dato de 64 bits con signo que almacena valores numéricos entre -263 a 263-1
+Float
+Es un tipo dato para almacenar números en coma flotante con precisión simple de 32 bits.
+
+Double
+Es un tipo de dato para almacenar números en coma flotante con doble precisión de 64 bits.
+Boolean
+Sirve para definir tipos de datos booleanos. Es decir, aquellos que tienen un valor de true o false. Ocupa 1 bit de información.
+Char
+Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
+
+Los tipos de datos primitivos se pueden organizar en 4 grupos:
+
+•	Numéricos enteros: Son los tipos byte, short, int y long. Los 4 representan números enteros con signo.
+•	Carácter: El tipo char representa un carácter codificado en el sistema unicod.
+•	Numérico decimal: Los tipos float y double representan números decimales en coma flotante.
+•	Lógicos: El tipo boolean es el tipo de dato lógico; los dos únicos posibles valores que puede representar un dato lógico son true y false. true y false son palabras reservadas de Java.
+
+Ejemplos de datos primitivos en Java
+
+ 
+	Otro ejemplo a mencionar dentro del día a día puede ser que al momento de realizar una operación matemática al mediante este lenguaje de programación, si el resultado de esta se encuentra dentro del rango de valores de -128 a 127, este resultado correspondería a un byte, en cambio sí se escapa tanto por su límite superior como inferior de dicho rango, correspondería a una función short o int, o alguna que soporte la cantidad numérica obtenida como resultado.
+
+
+
+Ejercicio 3
+Crear un algoritmo que permita realizar una compra online, identificar entradas, salidas, procesos, variables, constantes y tipos de datos.
+
+Comprar en una tienda virtual
+Entrada: necesidad de adquirir un producto de vestuario, internet, medio tecnológico (celular), medio de pago (tarjeta de débito y claves), aplicación de tienda Falabella, cuenta de usuario. ( 
+Procesos: 
+I.	Tomar el celular 
+II.	Ir a google play 
+III.	Descargar aplicación de Falabella
+IV.	Abrir aplicación 
+V.	Iniciar sesión 
+VI.	Buscar el producto que necesito o busco 
+VII.	Seleccionar color 
+VIII.	Seleccionar talla 
+IX.	Seleccionar agregar al carro 
+X.	Ir al carro y apretar botón de pago 
+XI.	Rectificar los productos 
+XII.	Seleccionar medio de retiro o despacho, en este caso despacho a domicilio.
+XIII.	Rectificar fecha 
+XIV.	Confirmar e ir al pago 
+XV.	Seleccionar medio de pago, tarjeta de débito
+XVI.	Ingresar Rut 
+XVII.	Ingresar Clave de internet del banco 
+XVIII.	Seleccionar cuenta de donde se van a descargar los fondos y confirmar 
+XIX.	Ingresar clave de coordenadas y confirmar 
+XX.	Se recibe correo de confirmación y boleta electrónica
+XXI.	Revisar proceso de despacho para ir confirmando la llegada del producto 
+XXII.	Recibe llamada telefónica de despacho para confirmar que llego su producto y se procede a ir a buscar el producto a la puerta de su hogar.
+XXIII.	Recibe el paquete, entregar a repartidor rut y nombre de la persona que recibe
+XXIV.	Toman foto con el producto en sus manos.
+XXV.	Toma el producto, lo desinfecta y procede a su apertura
+XXVI.	Llega producto deseado 
+Salida: Producto de vestuario en sus manos
+
+Variables	Tipo de Dato 	Constante	Tipo de dato
+Precio del producto 		N° de Boleta 	
+Tipo de despacho 		Nombre de usuario 	
+Valor despacho 		IVA	
+Valor total de compra		tarjeta de Crédito 	
+ Repartidor asignado 		Rut empresa 	
+Empresa de despacho 		Dirección empresa 	
+Producto de vestuario 		Clave de coordenadas 	
+
+
+
+
+
+
+
+
+•	Ejercicios grupales:
+
+1.	Crear un algoritmo que permita realizar una liquidación de sueldos, identificar entradas, salidas, variables, constantes y tipos de datos.
+
+Aclaración: somos la empresa que hace el programa donde se crea las liquidaciones de sueldo. Trabajador es un vendedor de retail
+
+Datos del empleado (nombre, AFP, numero de teléfono, Rut, etc) = String, cadena de datos 
+Tipo de contrato (fijo, a plazo, por faena) = Variable de Boole 
+Sueldo ($) = Variable, double 
+Gratificaciones = Constante, double
+Horas extra = Variable, double
+Locomoción = Constante, double
+Bono (cumplimiento de metas) = Variable
+Asistencia = Variable
+Licencias = Varible
+Turno =Variable
+
+Proceso 
+
+•	Identificar para cada empleado identificar la cantidad de días trabajados de acuerdo al registro de asistencia
+•	Multiplicar por sueldo diario
+•	Verificar ausencias con libro de asistencia
+•	Si tuvo ausencias multiplicar por sueldo diario
+•	Licencia
+•	Sumar días trabajados, días de ausencia menso días de licencia
+•	Calculo de retenciones AFP = Variable
+•	Calculo de retenciones ISAPRE o FONASA = Variable
+•	Calculo de impuesto a la renta = Variable
+•	Calcular sueldo final a pagar (total sueldo - retenciones) = Variable
+
+2.	Crear un algoritmo que permita realizar una boleta de honorarios electrónica. Identificar entradas, salidas, procesos, variables, constantes y tipos de datos.
+
+Entradas: cuenta creada en SII, datos de la empresa, Internet, medio tecnológico
+
+Proceso:
+ 
+•	Ingresar a SII = Constante, string
+•	Iniciar sesión = Constante
+•	Ir a mi SII = Constante
+•	Hacer click en generar boleta electrónica = Constante
+•	Ingresar datos de empresa = Constante
+•	Ingresar valor de boleta = Constante
+•	Validar = Constante
+•	Confirmar datos y generar boleta = Constante
+•	Imprimir boleta o descargar pdf = Constante
+•	Documento enviado al correo de usuario y empresa = Constante
