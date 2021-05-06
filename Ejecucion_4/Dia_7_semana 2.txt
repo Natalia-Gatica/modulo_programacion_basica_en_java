@@ -1,0 +1,194 @@
+Clase día 2 - Semana 2
+
+Integrantes: Leonardo Rodenas, Ignacio Cavallo, Natalia Gatica, Evelyn Ibarra, Francisca Díaz y Renzo Valencia.
+
+E-mail: leo.rodenas.e@gmail.com, ignaciomcavallo@gmail.com, natalia-gatica@hotmail.com, francisca.diaz.briones@gmail.com, ibarrarojas.evelyn@gmail.com 
+
+Ejercicio grupal 1: 
+
+Realizar un algoritmo en Pseudocódigo que permita sumar dos números.
+Realizar un algoritmo en Pseudocódigo que permita calcular el promedio de 3 notas.
+Realizar un algoritmo en Pseudocódigo que permita calcular el cuadrado de un numero.
+Para cada ejercicio determinar las variables y/o constantes involucradas.
+
+Variables: 
+
+Números = N1, N2 → Variable
+Sumar = N1 + N2 → Variable
+Resultado (N1 + N2) = R → Variable
+
+INICIO
+	"Escribir dos números (N1, N2)"
+	"Leer dos números (N1, N2)"
+	"Sumar dos números (N1 + N2)"
+	"Resultado función sumar (N1 + N2)"
+	"Escribir sumar dos números (N1 + N2)"
+	"Print "Su resultado es R""
+FIN
+__________________________________________________
+
+Variables: 
+
+Notas = Nota1, Nota2, Nota3 → Variable
+Numero de notas = 3 → Constante
+Sumar Notas = Nota1 + Nota2 + Nota3 → Variable
+Resultado sumar Notas = SM → Variable
+Dividir = SM/3 → Variable
+Resultado (SM/3) = Promedio → Variable	
+
+INICIO
+	"Escribir tres Notas (Nota1, Nota2, Nota3)"
+	"Leer tres Notas (Nota1, Nota2, Nota3)"
+	"Sumar tres Notas (Nota1 + Nota2 + Nota3)"
+	"Resultado función Sumar Notas (SM)"
+	"Dividir SM/Numero de notas"
+	"Leer SM/Numero de notas"
+	"Print "Su resultado es SM/Numero de notas"
+FIN
+__________________________________________________
+
+
+
+Variables: 
+
+Numero = A → Variable
+Resultado = A^2 → Variable
+
+INICIO
+	"Escribir Numero A"
+	"Leer Numero A"
+	"Resultado A^2"
+	"Leer A^2"
+	"Print "Su resultado es A^2""
+FIN
+
+
+
+
+Ejercicio Individual 
+
+Realizar un algoritmo en pseudocódigo para resolver el siguiente problema:
+Suponga que un individuo desea invertir un capital en un banco y desea saber cuanto dinero ganara después de un mes si el banco le paga a razón de 2% mensual.
+En cada ejercicio determinar las variables y/o constantes involucradas.
+
+
+Variables 
+
+Capital.: Monto inversión 
+
+Tiempo: 1 mes 
+
+Ganancia: 2%  (2/100)
+
+Inicio 
+
+Escribir : “Monto a Invertir”
+Escribir: “Tasa de retorno”
+
+Escribir: “Tiempo de inversión”
+
+Multiplicar: (Monto a Invertir *2/100) *tiempo 
+
+Leer: “Resultado de Ganancia” 
+
+
+
+
+
+Ejercicio Grupal
+Realizar un algoritmo en pseudocódigo que pida ingresar el modelo y la marca de una vehículo y me muestre por pantalla los datos ingresados.
+Realizar un algoritmo en pseudocódigo que permita calcular el porcentaje solicitado de un número ingresado.
+Realizar un algoritmo en pseudocódigo para resolver el siguiente problema:
+Un vendedor recibe un sueldo base más un 10% de comisión de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
+
+
+
+ Ejercicio 1
+
+Variables 
+
+Modelo de Vehículo 
+Marca de vehículo 
+
+Inicio 
+
+Escribir: “Modelo de Vehículo”
+Escribir: “Marca de Vehículo”
+
+Print: “Modelo de vehículo y Marca”
+
+
+
+
+
+Ejercicio 2 
+
+Variables 
+
+Número: n
+Porcentaje: p
+Resultado = (n*p)/100
+
+Variables:
+ Inicio 
+
+Escribir: “Ingresa número”
+Escribir: “Ingresa porcentaje”
+Multiplicar: “(n*p)/100”
+Print: “Porcentaje del n”
+
+
+
+Ejercicio 3
+
+Variables
+comision =  0.1
+sueldoTotal = 0
+valorVenta = 0
+numeroVentas = 3
+sueldoBase= 0
+
+
+
+
+
+fun calcular_sueldo(sueldoBase, comision, sueldoTotal, numerVentas):
+               sueldoTotal  = sueldoBase + (valorVenta * numeroVentas * comsion)
+               print(“ Su sueldo total es:” sueldoTotal”)
+
+
+
+
+
+
+
+
+Ejercicio Individual
+
+
+Realizar un algoritmo que intercambie el valor de dos variables
+Por ejemplo:
+Al inicio del problema los valores de las variables son A=2 y B=3
+Luego al final del algoritmo A=3 y B=2
+
+
+Variables 
+A=2 
+B=3
+Intercambiar
+Resultado: A= 3 y B= 2
+
+Inicio 
+Escribir: N°A 
+Escribir: “N°B”
+Intercambiar: “Valor de A= B y Valor de B =A”
+Print: A=3 y B=2
+
+
+Inicio 
+
+Escribir A
+Escribir B
+Leer: A= ((A+B)-A); A=((2+3)-2)=3
+Leer: B=((B+A)-B); B=((3+2)-3)=2
+Print : A=3 y B= 2

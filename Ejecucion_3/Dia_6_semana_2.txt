@@ -1,0 +1,84 @@
+Actividad Grupal
+Pensar en dos problemáticas las cuales podemos resolver aplicando tecnología
+analizar y definir 3 requerimientos funcionales y determinar todas las variables y constantes que
+pueden existir dentro de esos requerimientos para luego desarrollar el algoritmo para
+cada uno de estos
+
+Problema 1:  Jornada Trabajo Freelance
+ Requerimientos Funcionales: 
+Internet, 
+medio tecnológico de conectividad (celular,pc,notebook,etc.),
+datos personales,
+escritorio 
+audífono
+Materiales de trabajo 
+Luz eléctrica 
+Sitio Web 
+
+
+Variables:       Tiempo de conectividad, 
+conexión internet=bolean
+medio tecnológico=string
+Requerimientos del empleador=string 
+Sueldo=long
+                         Datos Personales=string
+
+Constantes: 	Horas Hombres definidas por contrato
+		Labores a desarrollar en el trabajo
+		
+		
+Algoritmo:
+Ingresar a sitio web e iniciar sesión con los datos personales 
+Dirigirse a sala de trabajo 
+Cumplir horario de reloj establecido 
+Esperar requerimientos de clientes y  empleador 
+Desconectarse e ingresar en los horarios establecidos (colación, break, salida)
+
+salida: 
+jornada de trabajadores en un día.
+
+
+
+
+Problema 2: Jornada Clases online
+
+Requerimientos Funcionales:
+
+1:Luz ambiental o artificial
+2:conexión a internet
+3:escritorios
+4: microfono y audifono
+5: materiales de trabajo 
+6: Datos de Acceso
+
+Variables: Tiempo de ejecución de la clase; material de trabajo disponible; tema de la clase.
+	Número de alumnos
+
+Constantes: 
+Datos de acceso
+Sitio web
+Horario
+Código de la clase
+
+Algoritmo:
+	-Acceder al sitio web
+	-Logear con datos de acceso
+ 	-Ingresar a sala virtual
+	-Realizar actividades en el horario asignado
+	-deslogear
+
+salida:
+
+Jornada lograda en la sala virtual (estar presente y lograr el objetivo de aprendizaje del día.	
+
+Actividad Individual
+Escribir algoritmo en pseudocódigo donde se le solicite al usuario ingresar 2 números.
+Variables 
+Número 1= N1
+Número 2= N2
+Inicio 
+Escribir: ”escribe un número”
+Leer: N1
+Escribir: “escribe otro número”
+Leer: N2
+Print: N1 y N2

@@ -1,0 +1,184 @@
+Ejercicio Grupal
+1.- Determinar si un número ingresado es par o impar 
+Inicio 
+Escribir: “Ingrese Número”
+Leer: “Número”
+Sí (Número es par) entonces
+Print: “par”
+Si no 
+Print: “impar”
+Fin si 
+Fin 
+
+2.- Determinar si un número ingresado es múltiplo o no de 2
+Inicio
+Escribir "Ingrese Numero "
+Leer número: “número” 
+Número módulo: =%2
+SI (resultado a%2 == 0)
+Print: "El número es múltiplo de 2"
+Si no print: “el número no es múltiplo de 2”
+Fin Si
+Fin
+3.- determinar si un número ingresado es múltiplo o no de 3
+Inicio 
+Escribir: “número”
+Leer: “número”
+Sí (Número %3==0) entonces 
+Print: ”múltiplo de 3”
+Si no 
+Print: No es múltiplo de 3
+Fin si 
+Fin 
+
+
+Ejercicio Individual
+
+
+1.	Crear un algoritmo para resolver los siguientes problemas: que permita determinar cual es el mayor de 2 números ingresados
+
+Inicio 
+Escribir: “Ingresar dos números”
+Leer: “N1 y N2”
+Si (N1>N2)
+Print:  “N1 es mayor que N2” 
+Si no 
+Print:  “N1 es menor que N2”
+Fin si 
+Fin
+
+
+Ejercicio Grupal
+Crear un algoritmo para resolver el siguiente problema:
+E-mail: fco.andriev@gmail.com, natalia-gatica@hotmail.com,  yayson.olivares@gmail.com
+
+
+- Que permita determinar si la suma de dos números ingresados es positiva, negativa o cero.
+
+Variables:
+
+Num1 = a 
+Num2 = b 
+
+INICIO
+	Escribe Num1 (a)
+	Leer Num1 (a)
+	Escribe Num2 (b)
+	Leer Num2 (b)
+	SI (a+b>0), print "la suma de los números es positiva"
+	SI NO, SI (a+b<0), print "la suma de los números es negativa" 
+	SI NO, "la suma es 0"
+	FIN SI
+FIN
+________________________________________________________
+INICIO
+	Escribe Num1 (a)
+	Leer Num1 (a)
+	Escribe Num1 (b)
+	Leer Num1 (b)
+	SI (a+b>0), print "la suma de los números es positiva"
+	SI NO, "la suma de los números es negativa" 
+	SI (a+b==0), print "la suma es 0"
+	SI NO, print "la suma no es igual a 0"
+	FIN SI
+FIN
+________________________________________________________________
+
+Variables:
+
+numero1
+numero2
+suma
+
+inicio
+imprimir "ingrese 1 numero"
+leer numero 1
+imprimir "ingrese otro numero"
+leer numero 2
+suma=numero1+numero2
+si(suma > 0){
+print:"la suma de ambos numeros es positiva"
+}
+si(suma < 0){
+print:"la suma de ambos numeros es negativa"
+}
+Si No{
+print:"la suma de ambos numeros es igual a 0"
+}
+fin
+
+- Que indique si un numero es divisible por 2 y por 5 al mismo tiempo.
+
+Variable:
+
+Num1 = a 
+
+INICIO
+	Escribe Num1 (a)
+	Leer Num1 (a)
+	SI (a%2==0) && (a%5==0), print +a "es divisible por 2 y por 5"
+	SI NO, print "el numero no es divisible por 2 y 5 al mismo tiempo"
+	FIN SI
+FIN
+
+Obs: &&→ Y
+
+Variable:
+
+numero
+
+inicio
+print : "ingrese un numero para verificar si es divisible por 2 y por 5"
+si(numero % 2==0 && numero % 5==0){
+print:"el numero es divisible por 2 y 5"
+}
+si no {
+print: "el numero no es divisible por 2 y 5 al mismo tiempo"
+}
+fin
+
+- Que permita determinar cual es el mayor de 3 números ingresados. 
+
+Variables:
+
+Num1 = a
+Num2 = b
+Num3 = c
+
+FIN
+	Escribe Num1 (a)
+	Leer Num1 (a)
+	Escribe Num2 (b)
+	Leer Num2 (b)
+	Escribe Num3 (c) 
+	Leer Num3 (c)
+	SI (a>b && a>c), print: +a "es el numero mayor de los tres números"
+	SI NO, SI (b>a && b>c), : +b "es el numero mayor de los tres números"
+	SI NO, print: "c es el mayor de los tres números"
+	FIN SI
+	FIN SI
+FIN
+
+
+
+Ejercicio individual
+Crear un algoritmo en pseucodigo para resolver el siguiente problema:
+Que solicite al usuario ingresar dos números y realizara la operación matemática con estos números, el usuario debe seleccionar la operación realizada 
+Variables 
+Número 1= N1
+Número 2= N2
+O. matemática= Suma, resta y división 
+Resultado operación= n3
+Inicio 
+Escribir: “ingresa un número”
+Leer: N1
+Escribir: ”ingresa otro número “
+Leer : N2
+Escribir: “ingresar operación matemática (suma, resta o división)”
+Leer: “Operación matemática”
+Si (O. matemática==suma) entonces print: (N1+N2=n3)
+Si no, Si (O. matemática ==resta) entonces print: (N1-N2=n3)
+Si no ,Si (O.matemática==/) entonces print: (N1/N2=n3)
+Fin Si 
+Fin Si 
+Fin 
